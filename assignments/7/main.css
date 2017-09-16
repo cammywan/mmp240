@@ -1,0 +1,30 @@
+@supports (grid-area: auto){
+  
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, max-content);
+    grid-template-areas: 
+       "carousel carousel"
+       "title title"
+       "image intro"
+       "map image"
+       "image testimony";
+  }
+  
+  
+.herocarousel{ grid-area: carousel; }
+  
+.title{grid-area: title;}
+    
+.image-thumbnail{ grid-area: image; }
+
+.map{ grid-area: map; }
+
+.intro{ grid-area: intro; }
+
+.testimony{ grid-area: testimony; }
+  
+
+  
+}
