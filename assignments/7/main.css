@@ -1,8 +1,8 @@
 @supports (grid-area: auto){
   
-.grid{
+article.grid{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     grid-template-rows: repeat(5, max-content);
     grid-template-areas: 
        "carousel carousel"
@@ -13,18 +13,19 @@
   }
   
   
-.herocarousel{ grid-area: carousel; }
+article.herocarousel{ grid-area: carousel; }
   
-.title{grid-area: title;}
+article.title{ grid-area: title; }
     
-.image-thumbnail{ grid-area: image; }
+article.image-thumbnail{ grid-area: image; }
 
-.map{ grid-area: map; }
+article.map{ grid-area: map; }
 
-.intro{ grid-area: intro; }
+article.intro{ grid-area: intro; }
 
-.testimony{ grid-area: testimony; }
+article.testimony{ grid-area: testimony; }
   
 
   
 }
+
