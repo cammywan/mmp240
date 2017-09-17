@@ -13,7 +13,8 @@ article.grid{
   }
   
   
-article.herocarousel{ grid-area: carousel; }
+article.herocarousel{ grid-area: carousel;
+    }
   
 article.title{ grid-area: title; }
     
@@ -28,4 +29,28 @@ article.testimony{ grid-area: testimony; }
 
   
 }
+.image-thumbnail{
+    background-color: plum;
+    height:400px;
+}
+.intro, .map, .testimony{
+    background-color: cornflowerblue;
+}
+header,footer{
+    background-color: coral;
+}
 
+footer{
+    height: 200px;
+}
+
+header{
+    height: 100px;
+}
+.title{
+    background-color: antiquewhite;
+}
+.herocarousel{
+    background-color: darkgray;
+    height: 500px;
+}
