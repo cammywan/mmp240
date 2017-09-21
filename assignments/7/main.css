@@ -3,23 +3,24 @@
 article.grid{
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: repeat(5, max-content);
+    grid-template-rows: repeat(4, max-content);
     grid-template-areas: 
        "carousel carousel"
-       "title title"
-       "image intro"
-       "map image"
-       "image testimony";
+       "image1 intro"
+       "map image2"
+       "image3 testimony";
   }
   
   
-article.herocarousel{ grid-area: carousel;
+.herocarousel{ grid-area: carousel;
     }
   
-article.title{ grid-area: title; }
     
-article.image-thumbnail{ grid-area: image; }
+article.image-thumbnail1{ grid-area: image1; }
 
+article.image-thumbnail2{ grid-area: image2; }
+article.image-thumbnail3{ grid-area: image3; }
+    
 article.map{ grid-area: map; }
 
 article.intro{ grid-area: intro; }
@@ -29,7 +30,7 @@ article.testimony{ grid-area: testimony; }
 
   
 }
-.image-thumbnail{
+.image-thumbnail1, .image-thumbnail2, .image-thumbnail3{
     background-color: plum;
     height:400px;
 }
