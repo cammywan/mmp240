@@ -1,0 +1,45 @@
+@supports (grid-area: auto){
+  
+article.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-areas: 
+       "carousel carousel"
+       "image1 intro"
+       "map image2"
+       "image3 testimony";
+  }
+  
+  
+.hero{ grid-area: carousel;
+    }
+  
+    
+article.image-thumbnail1{ grid-area: image1; }
+
+article.image-thumbnail2{ grid-area: image2; }
+article.image-thumbnail3{ grid-area: image3; }
+    
+article.map{ grid-area: map; }
+
+article.intro{ grid-area: intro; }
+
+article.testimony{ grid-area: testimony; }
+  
+
+  
+}
+
+
+header,footer{
+    background-color: coral;
+}
+
+footer{
+    height: 200px;
+}
+
+header{
+    height: 100px;
+}
