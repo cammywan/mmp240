@@ -1,0 +1,87 @@
+@supports (grid-area: auto){
+  
+article.grid{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-areas: 
+       "carousel carousel"
+       "image1 intro"
+       "map image2"
+       "image3 testimony";
+  }
+  
+  
+.hero{ grid-area: carousel;
+    margin-bottom: 5%;
+    }
+  
+    
+.image-thumbnail1{ grid-area: image1;
+   
+    }
+
+.image-thumbnail2{ grid-area: image2; }
+.image-thumbnail3{ grid-area: image3; }
+    
+.map{ grid-area: map; }
+
+.intro{ grid-area: intro; }
+
+.testimony{ grid-area: testimony; }
+  
+
+
+
+
+header,footer{
+    background-color: grey;
+}
+
+footer{
+    height: 200px;
+}
+
+header{
+    height: 100px;
+}
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    color: dimgray;
+}
+h4{
+    font-family: 'Caveat', cursive;
+    font-size: 1.4em;
+    text-align: center;
+    color: dimgray;
+    margin-bottom: -3%;
+    padding: 0 3%;
+}
+em{
+    font-family: 'Abril Fatface', cursive;
+    font-size:1.3em;
+    margin-bottom: -2%;
+    text-align: center;
+    color: dimgray;
+    font-style: normal;
+}
+
+p{
+    font-family: 'News Cycle', sans-serif;
+    padding: 0 10%;
+}
+
+.testimony p{
+   text-align: right;
+    margin-bottom: 2%;
+    
+}
+
+#hours{
+        float: right;
+        margin-top: -10%;
+    }
