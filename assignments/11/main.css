@@ -61,13 +61,15 @@ h4{
 }
 em{
     font-family: 'Abril Fatface', cursive;
-    font-size:1.3em;
     margin-bottom: -2%;
     text-align: center;
     color: dimgray;
     font-style: normal;
 }
-
+    h2{
+        padding-left: 7%;
+       font-size: 1.3em;
+    }
 p{
     font-family: 'News Cycle', sans-serif;
     padding: 0 10%;
