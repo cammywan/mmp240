@@ -88,11 +88,14 @@ article.homeGrid{
 /*style*/
 .title h2{
     text-align: center;
-    color: #BBDDF5;
+    color: #7597AD;
     padding-bottom: 3%;
     line-height: 1.8em;
 }
 
+    h2{
+    font-family: 'Abril Fatface', cursive;
+    }
 
 
 .title h1{
@@ -218,6 +221,7 @@ a {
     font-family: 'Kaushan Script', cursive;
     font-size: 1.5em; /* change this to be the font-size you want for Site title */
     margin-left: 1em;
+    margin-top: 0;
 }
 
 .logo a {
